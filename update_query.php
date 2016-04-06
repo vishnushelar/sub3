@@ -1,7 +1,8 @@
 <?php
-include 'submodule/config.php';
-include 'submodule/sub2/getid.php';
-include 'submodule/common/getname.php';
+$url = "http://localhost/Test_git/submodule/";
+include '../../config.php';
+include '../../sub2/getid.php';
+include '../../common/getname.php';
 
 var_dump($id);
 $query = "UPDATE test SET name='".$name."' WHERE id=".$id;
